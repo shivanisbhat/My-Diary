@@ -1,3 +1,4 @@
+![Video Preview of My Diary App](https://github.com/shivanisbhat/My-Diary/Project video (diary).gif)
 # My-Diary Application
 
 A simple and intuitive web application to keep track of your daily thoughts and notes. This project demonstrates a full-stack application built with Angular for the frontend and Node.js/Express with MongoDB for the backend.
