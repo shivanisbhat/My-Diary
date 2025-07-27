@@ -59,7 +59,7 @@ npm install
   * Open `react.js` (your main backend file).
   * Update the `mongoose.connect` string with your MongoDB Atlas connection URI. Replace `KkhmaNfahsRrzWua` with your actual password and `cluster0.rwp9vvu.mongodb.net` with your cluster details.
     ```javascript
-    mongoose.connect('mongodb+srv://shivanispg:YOUR_PASSWORD_HERE@cluster0.rwp9vvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    mongoose.connect('mongodb+srv://YOUR_USERNAMEHERE:YOUR_PASSWORD_HERE@cluster0.rwp9vvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     ```
     (Ensure you create a database user with appropriate access in MongoDB Atlas.)
 
