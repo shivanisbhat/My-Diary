@@ -1,12 +1,18 @@
+import tr from '@angular/common/locales/extra/tr';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [
+    HeaderComponent, 
+    RouterModule 
+  ]
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'my-diary';
 }
